@@ -52,7 +52,7 @@ print("Total number of food items:", count)
 '''
 
 
-
+'''
 # Count Total Valid & Invalid reviews
 
 valid_count = 0
@@ -80,13 +80,24 @@ with open("data.csv", 'r') as file:
 
 print(": ", invalid_list)
 print("Valid Reviews: ", valid_count)
-print("Invalid Reviews: ", invalid_count)
+print("Invalid Reviews: ", invalid_count)'''
 
-# food_items = {}
-# with open("data.csv", 'r') as file:
-#     csv_file = csv.DictReader(file)
-#     for row in csv_file:
-#         key = (row['Food_Id'])
-#         food_items[key] = float(row['Rating'])
-#     print(food_items)
-#
+# Top 3 Average ratings
+with open("data.csv", 'r') as file:
+    csv_file = csv.DictReader(file)
+    for row in csv_file:
+        # keys = list(row.keys())
+        print(row)
+
+
+
+'''
+food_items = {}
+with open("data.csv", 'r') as file:
+    csv_file = csv.DictReader(file)
+    for row in csv_file:
+        key = (row['Food_Id'])
+        food_items[key] = float(row['Rating'])
+    print(food_items)
+
+'''
