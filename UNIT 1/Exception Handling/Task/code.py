@@ -15,13 +15,13 @@ try:
             python = f.readline().lower()
             python = python.replace('python:', '')
             if python == str('3.7' + '\n'):
-                fianl = 'RUN apt-get install python' + python
+                final = 'RUN apt-get install python' + python
                 temp = 'RUN python3 -m pip install '
                 temp2 = f.read().lower()
                 temp2 = temp2.split('\n')
                 for i in temp2:
                     list.append(temp + i)
-                print(fianl)
+                print(final)
                 str = ''
                 for i in list:
                     str = str + i
@@ -37,7 +37,7 @@ except CustomException as e:
 try:
     f2 = open('get.txt', 'a')
     f2.write('\n')
-    f2.write(fianl)
+    f2.write(final)
     f2.write('\n')
     f2.write(str)
     f2.write('RUN echo "Compilation Successful"')
