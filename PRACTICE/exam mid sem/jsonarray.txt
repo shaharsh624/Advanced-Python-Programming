@@ -1,0 +1,17 @@
+{"name":"Jack","employeeid":001,"present":False}
+
+{
+    "employee":{
+        "name":"sonu",
+        "salary":56000,
+        "married":True
+    }
+}
+
+{
+    "PizzaName":"Country Feast",
+    "Base":"CheeseBurst"
+    "Toppings":["Jalepenos","Black olives","Cherry tomatoes"],
+    "Spicy":"Yes"
+}
+

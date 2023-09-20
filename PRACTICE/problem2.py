@@ -30,4 +30,7 @@ print("Characters without spaces: ", count_character-count_space)
 print("Spaces: ", count_space)
 print("Lines: ", count_line)
 
+print("Frequency of characters: ")
+print(frequency_character)
+
 f1.close()
