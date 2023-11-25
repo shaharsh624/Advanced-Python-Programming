@@ -1,0 +1,17 @@
+Analysis of System Resource Usage
+
+You are tasked with creating a Python program that periodically collects system resource usage data, processes the data, and visualizes it using NumPy and Matplotlib. This program should use the schedule library to automate the data collection at regular intervals.
+
+Your program should perform the following tasks:
+
+1. Create a Python script that collects system resource usage data. You can use the psutil library to gather data about CPU usage, memory usage, and disk usage.
+
+2. Store the collected data in a CSV file. Each data point should include a timestamp, CPU usage percentage, memory usage percentage, and disk usage percentage.
+
+3. Use the schedule library to run this data collection process at regular intervals (e.g., every 5 minutes) and append the new data to the CSV file.
+
+4. Create a separate Python script that reads the data from the CSV file and uses NumPy to calculate statistics such as average CPU usage, memory usage, and disk usage over time.
+
+5. Visualize the collected data using Matplotlib, creating line plots for CPU usage, memory usage, and disk usage over time. Make sure to label your axes and add a legend to the plots.
+
+6. Create a subprocess that runs the data collection and processing as a background task, and ensure that it continues collecting data until manually stopped.
