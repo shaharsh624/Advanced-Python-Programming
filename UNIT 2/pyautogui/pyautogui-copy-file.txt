@@ -1,8 +1,0 @@
-Python pyautogui library is an automation library that allows mouse and keyboard control. Or we can say that it facilitates us to automate the movement of the mouse and keyboard to establish the interaction with the other application using the Python script. 
-
-It provides many features, and a few are given below.
-1. We can move the mouse and click in the other applications' window.
-2. We can send the keystrokes to the other applications. For example - filling out the form, typing the search query to browser, etc.
-3. We can also take snapshots and give an image.
-4. It allows us to locate a window of the application, and move, maximize, minimize, resizes, or close it.
-5. Display alert and message boxes.
