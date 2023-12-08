@@ -1,0 +1,11 @@
+Name,Email,Phone,Age
+John Doe,johndoe@example.com,123-456-7890,30
+Alice Smith,alice.smith@example.com,987-654-3210,25
+Bob Johnson,bob.johnson@example.com,555-123-4567,40
+Emma Davis,emma.davis@example.com,444-789-0123,22
+Michael Lee,michael.lee@example.com,777-888-9999,35
+Sophia Brown,sophia.brown@example.com,111-222-3333,28
+Oliver Wilson,oliver.wilson@example.com,666-555-4444,32
+Eva Garcia,eva.garcia@example.com,999-888-7777,27
+David Miller,david.miller@example.com,222-333-4444,45
+Grace Martinez,,333-666-9999,29
