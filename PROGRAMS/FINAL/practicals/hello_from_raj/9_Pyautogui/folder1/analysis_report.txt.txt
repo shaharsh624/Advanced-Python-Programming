@@ -1,0 +1,17 @@
+analysis_report.txt
+The burger was quite tasty.                10
+The sushi was truly excellent.              9
+The pasta was really yummy.                 9
+The salad was very healthy and fresh.       9
+The steak was incredibly savory.            9
+The ice cream was sweet and creamy.         9
+The pizza was absolutely delicious.         9
+The ice cream was sweet and delightful.     5
+The pizza was delicious as always.          5
+The burger had a tantalizing flavor.        5
+The sushi was an absolute delight.          5
+The pasta tasted incredibly yummy.          5
+The salad was fresh and nutritious.         5
+The steak was savory and juicy.             5
+Pizza                                       1									
+is_report.txt

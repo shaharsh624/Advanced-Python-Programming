@@ -1,0 +1,10 @@
+Name,Age,Gender,Height,Weight
+Alice,25.0,F,5.5,65.0
+Bob,,M,6.0,80.0
+Charlie,35.0,,,77.0
+David,45.0,M,5.8,
+Edward,55.0,M,5.9,88.0
+Frank,40.0,M,6.1,90.0
+George,65.0,M,6.2,75.0
+Hank,35.0,M,5.9,77.0
+Alice,25.0,F,5.5,65.0
